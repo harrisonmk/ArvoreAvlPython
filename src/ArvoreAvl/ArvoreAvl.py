@@ -32,7 +32,7 @@ class ArvoreAvl(object):
                     aInserir.setPai(aComparar)
                     self.verificarBalanceamento(aComparar)
                 else:
-                    inserirAVL(aComparar.getDireita(), aInserir)
+                    self.inserirAVL(aComparar.getDireita(), aInserir)
             else:
                 None
 
